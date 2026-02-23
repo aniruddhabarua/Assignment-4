@@ -67,7 +67,7 @@ header h1{
     max-height: 32px;
 }
 
-.tab-btn.active {
+.active {
     background-color: #3B82F6;
     color: white;
 }
