@@ -71,3 +71,52 @@ header h1{
     background-color: #3B82F6;
     color: white;
 }
+
+.job-card{
+    margin-top: 16px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.job-card .grey{
+    color: #64748B;
+}
+
+.job-card-gap{
+    margin-bottom: 20px;
+}
+
+.job-card-button{
+    gap: 8px;
+}
+
+.job-btn-1{
+    border: 2px solid green;
+    background-color: white;
+    border-radius: 4px;
+    color: green;
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+.job-btn-2{
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 4px;
+    color: red;
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+.job-btn-3{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 50px;
+    color: grey;
+    padding: 10px 8px;
+
+}
