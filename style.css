@@ -1,0 +1,73 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.font-geist{
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 245px 0px 245px;
+    background-color: #F8FAFC;
+}
+
+header{
+    margin-bottom: 60px;
+}
+
+header h1{
+    margin-bottom: 20px;
+}
+
+.tracker-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+}
+
+.info-card {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 20px 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+#count-total{
+    color: black;
+}
+
+#count-interview{
+    color: green;
+}
+
+#count-rejected{
+    color: red;
+}
+
+.available-jobs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.tab-btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #F1F2F4;
+    border-radius: 4px;
+    color: #64748B;
+    cursor: pointer;
+    max-width: 80px;
+    max-height: 32px;
+}
+
+.tab-btn.active {
+    background-color: #3B82F6;
+    color: white;
+}
