@@ -1,7 +1,7 @@
 let countTotal = document.getElementById('count-total')
 let countInterview = document.getElementById('count-interview')
 let countRejected = document.getElementById('count-rejected')
-currentStatus = "job-btn"
+let currentStatus = "all"
 
 let jobButton = document.getElementById('job-btn')
 let interviewButton = document.getElementById('interview-btn')
@@ -88,6 +88,12 @@ mainContainer.addEventListener('click', function(event){
         if (currentStatus == "interview-btn") {
             interviewRender();
         }
+
+        calculateCount()
+    }
+    else if (event.target.parentNode.classList.contains("job-btn-3")) {
+        const jobCard = event.target.parentNode.parentNode.parentNode
+        jobCard.remove();
 
         calculateCount()
     }

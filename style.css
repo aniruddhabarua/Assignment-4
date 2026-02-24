@@ -120,3 +120,15 @@ header h1{
     padding: 10px 8px;
 
 }
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+    body{
+      margin: 0;
+      padding: 50px;
+    }
+
+}
