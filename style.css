@@ -125,6 +125,13 @@ header h1{
   display: none;
 }
 
+.status{
+    background-color: #EEF4FF;
+    padding: 10px 10px;
+    border-radius: 4px;
+    max-width: 100px;
+}
+
 @media screen and (max-width:576px) {
     body{
       margin: 0;
